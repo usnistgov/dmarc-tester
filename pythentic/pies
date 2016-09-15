@@ -1,0 +1,7 @@
+cat disclaimer.txt commons.py > commons.py
+cat disclaimer.txt dinsget.py > dinsget.py
+cat disclaimer.txt haddmarc.py > haddmarc.py
+cat disclaimer.txt hadspf.py > hadspf.py
+cat disclaimer.txt importage.py > importage.py
+cat disclaimer.txt readme.txt > readme.txt
+cat disclaimer.txt squall.py > squall.py

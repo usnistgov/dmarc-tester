@@ -1,0 +1,12 @@
+set hostname = emailtest.had-pilot.biz
+set from = pythentic@emailtest.had-pilot.biz
+set realname = "Pythenticator"
+set use_envelope_from = yes
+
+set spoolfile = /var/spool/mail/night
+set postponed=+night/Drafts
+set header_cache=+night/cache/headers
+set message_cachedir=+night/cache/bodies
+set certificate_file=+night/certificates
+
+set move = no

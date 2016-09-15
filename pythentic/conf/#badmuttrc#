@@ -1,0 +1,11 @@
+set hostname = had5.antd.nist.gov
+set from = night@sender5.bad.emailtest.had-pilot.biz
+set realname = "Pythenticator"
+
+set spoolfile = /var/spool/mail/night
+set postponed=+night/Drafts
+set header_cache=~/.mutt/cache/headers
+set message_cachedir=~/.mutt/cache/bodies
+set certificate_file=~/.mutt/certificates
+
+set move = no

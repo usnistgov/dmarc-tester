@@ -1,0 +1,12 @@
+set hostname = had-pilot.biz
+set from = pythentic@had-pilot.biz
+set realname = "Email Authenticator"
+set use_envelope_from = yes
+
+set spoolfile = /var/spool/mail/night
+set postponed=+night/Drafts
+set header_cache=~/.mutt/cache/headers
+set message_cachedir=~/.mutt/cache/bodies
+set certificate_file=~/.mutt/certificates
+
+set move = no

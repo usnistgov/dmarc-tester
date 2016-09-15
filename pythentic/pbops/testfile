@@ -1,0 +1,16 @@
+#This is a comment
+command putmeta dmarc.db dmarc_schema.sql dmarcdb.conf
+command putmeta pgp.db pgp_schema.sql pgpdb.conf
+command putadder dmarc.db dmarc_schema.sql
+command putadder pgp.db pgp_schema.sql
+command putresult dmarc.db dmarc_schema.sql
+command getmeta dmarc.db
+command getmeta pgp.db
+command getadder dmarc.db
+command getadder pgp.db
+command getresult dmarc.db
+command updatereported dmarc.db
+command putresult dmarc.db dmarc_schema.sql
+command getresult dmarc.db
+#This is another comment
+
